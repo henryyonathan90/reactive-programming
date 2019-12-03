@@ -1,6 +1,6 @@
 package henry.jonathan.tutorial.reactive.programming.functionalinterface;
 
-public class Sample2 {
+public class Sample2a {
 
   public static void main(String[] args) {
     StringProcessor stringProcessor = new StringProcessor() {
