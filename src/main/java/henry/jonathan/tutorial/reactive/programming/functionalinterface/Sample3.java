@@ -4,6 +4,7 @@ public class Sample3 {
 
   public static void main(String[] args) {
     StringProcessor stringProcessor = (str -> {
+      System.out.println("print from provided supplier");
       String result;
       result = str.toUpperCase();
       result = result.trim();
@@ -11,7 +12,8 @@ public class Sample3 {
       return result;
     });
 
-    System.out.println(stringProcessor.process(" coba te xt in i jadi a p  a"));
+    System.out.println("print from before running the process");
+    System.out.println(stringProcessor.process(" som e sa m   ple text"));
   }
 
 }

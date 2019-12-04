@@ -1,5 +1,8 @@
 package henry.jonathan.tutorial.reactive.programming.observerpattern;
 
+/**
+ * Sample of custom publisher and subscriber
+ */
 public class Sample1 {
 
   public static void main(String[] args) {

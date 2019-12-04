@@ -5,7 +5,7 @@ import org.reactivestreams.Subscription;
 
 public class CustomSubscriber implements Subscriber<String> {
   public void onSubscribe(Subscription s) {
-
+    //DO NOTHING
   }
 
   public void onNext(String s) {
@@ -13,7 +13,7 @@ public class CustomSubscriber implements Subscriber<String> {
   }
 
   public void onError(Throwable t) {
-
+    //DO NOTHING
   }
 
   public void onComplete() {
