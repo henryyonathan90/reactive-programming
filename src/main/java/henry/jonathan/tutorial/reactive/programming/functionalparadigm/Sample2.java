@@ -28,7 +28,6 @@ public class Sample2 {
   }
 
   private static String capitalizeString(String s) {
-    System.out.println("A");
     return s.substring(0, 1).toUpperCase() + s.substring(1);
   }
 
