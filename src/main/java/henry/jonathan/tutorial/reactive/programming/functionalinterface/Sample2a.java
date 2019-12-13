@@ -1,5 +1,8 @@
 package henry.jonathan.tutorial.reactive.programming.functionalinterface;
 
+/**
+ * Sample for anonymous class
+ */
 public class Sample2a {
 
   public static void main(String[] args) {
